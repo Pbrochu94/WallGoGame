@@ -31,7 +31,7 @@ body {
   font-size: var(--font-size-title);
   font-family: var(--font);
   text-shadow:
-    1px 1px 15px rgb(86, 8, 102),
+    1px 1px 15px rgb(70, 9, 82),
     0 0 0.5em rgb(183, 0, 255),
     0 0 0.2em rgb(63, 2, 75);
 }
