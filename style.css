@@ -1,0 +1,46 @@
+:root {
+  --background: rgb(13, 2, 33);
+  --header: rgb(38, 20, 71);
+  --grid: rgb(253, 29, 83);
+  --player1: rgb(45, 226, 230);
+  --player2: rgb(119, 0, 255);
+  --font-size-title: 72px;
+  --font: "Kaushan Script";
+  --font-base-color: rgb(213, 231, 243);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0%;
+}
+
+body {
+  background-color: var(--background);
+}
+
+/*---------------Header section-----------------*/
+.head-bar {
+  background-color: var(--header);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-size: var(--font-size-title);
+  font-family: var(--font);
+  text-shadow:
+    1px 1px 15px rgb(86, 8, 102),
+    0 0 0.5em rgb(183, 0, 255),
+    0 0 0.2em rgb(63, 2, 75);
+}
+
+.new-retro-icon {
+  height: 300px;
+  width: 300px;
+  position: absolute;
+  right: 520px;
+  top: -60px;
+  transform: rotate(0.05turn);
+}
