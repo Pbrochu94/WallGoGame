@@ -13,6 +13,10 @@
     0 0 0.2em rgb(63, 2, 75);
 }
 
+.invisible {
+  display: none;
+}
+
 * {
   box-sizing: border-box;
   margin: 0%;
@@ -63,7 +67,7 @@ header {
 
 /*Main menu window----------------*/
 
-.main-menu-wrap {
+.instruct-window-wrap {
   display: flex;
   height: 100%;
   width: 100%;
@@ -71,7 +75,7 @@ header {
   align-items: center;
 }
 
-.main-menu-window {
+.instruct-window {
   height: 700px;
   width: 600px;
   background-color: rgb(26, 8, 56);
@@ -84,7 +88,7 @@ header {
   align-items: center;
 }
 
-.menu-window-title {
+.instruct-window-title {
   text-align: center;
   font-family: var(--font);
   text-shadow: var(--font-neon-shadow);
@@ -95,7 +99,7 @@ header {
   width: 80%;
 }
 
-.menu-window-arrow-wrapper {
+.instruct-window-arrow-wrapper {
   display: flex;
   margin-top: 20px;
   height: 10%;
@@ -113,7 +117,7 @@ header {
 .right-arrow {
   transform: rotate(180deg);
 }
-.menu-window-start {
+.instruct-window-start-button {
   margin-top: auto;
   margin-bottom: 10%;
   height: 8%;
@@ -124,4 +128,8 @@ header {
   box-shadow: 1px 1px 5px red;
   font-family: var(--font);
   font-size: var(--font-base-size);
+}
+
+.instruct-window-start-button:hover {
+  cursor: pointer;
 }
